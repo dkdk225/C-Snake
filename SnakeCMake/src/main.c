@@ -54,5 +54,8 @@ int main(int argc, char* argv[]) {
 	Screen_setState(pState);
 	Screen_print();
 
+	printf("Press any key to exit...\n");
+	_getch();
+
 	return 0;
 }
